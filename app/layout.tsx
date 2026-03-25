@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     url: "https://jolloniego.github.io",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.svg",
   },
 };
 
