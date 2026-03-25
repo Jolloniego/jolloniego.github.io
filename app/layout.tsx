@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navbar } from "@/components/navbar";
+import { CursorGrid } from "@/components/cursor-grid";
 import "./globals.css";
 
 const inter = Inter({
@@ -49,8 +50,9 @@ export default function RootLayout({
       </head>
       <body className="min-h-full antialiased">
         <ThemeProvider>
+          <CursorGrid />
           <Navbar />
-          {children}
+          <div className="relative z-10">{children}</div>
         </ThemeProvider>
       </body>
     </html>

@@ -31,9 +31,6 @@ export function Hero() {
       ref={glowRef}
       className="hero-section relative min-h-[90vh] flex items-center justify-center px-6 overflow-hidden"
     >
-      {/* Dot grid background */}
-      <div className="dot-grid absolute inset-0 pointer-events-none" />
-
       {/* Ambient glow that follows cursor */}
       <div className="hero-glow absolute pointer-events-none" />
 

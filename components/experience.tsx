@@ -6,7 +6,7 @@ const EXPERIENCES = [
     role: "Co-Founder & Head of Engineering",
     period: "Mar 2023 — Present",
     description:
-      "Building a GenAI-powered personal assistant for Latin America. Scaled to 6M+ users, raised $19.3M from Prosus Ventures, Endeavor Catalyst, Factory HQ, and Anthos Capital. Leading engineering for Zapia's WhatsApp integration, mobile apps, and autonomous AI agent (Zapia Conecta).",
+      "Building a GenAI-powered personal assistant for Latin America. Scaled to 6M+ users, raised $19.3M from Prosus Ventures, Endeavor Catalyst, Factory HQ, and Anthos Capital. Leading all backend engineering and infrastructure.",
     url: "https://zapia.com",
   },
   {
